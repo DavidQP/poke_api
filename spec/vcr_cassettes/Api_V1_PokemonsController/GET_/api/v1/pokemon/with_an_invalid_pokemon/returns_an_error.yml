@@ -1,0 +1,69 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://pokeapi.co/api/v2/pokemon/unknown_pokemon
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.12.1
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      date:
+      - Sun, 24 Nov 2024 20:30:53 GMT
+      content-type:
+      - text/plain; charset=utf-8
+      content-length:
+      - '29'
+      connection:
+      - keep-alive
+      cache-control:
+      - public, max-age=432000, s-maxage=432000
+      content-encoding:
+      - gzip
+      etag:
+      - W/"9-0gXL1ngzMqISxa6S1zx3F4wtLyg"
+      function-execution-id:
+      - j1ct1sfoo7yc
+      x-cloud-trace-context:
+      - b3299414be87c9614479286a1c86c1e7
+      x-powered-by:
+      - Express
+      x-served-by:
+      - cache-mia-kmia1760034-MIA
+      x-cache:
+      - MISS
+      x-cache-hits:
+      - '0'
+      x-timer:
+      - S1732318883.482172,VS0,VE1305
+      vary:
+      - Accept-Encoding, x-fh-requested-host, accept-encoding
+      alt-svc:
+      - h3=":443"; ma=86400
+      cf-cache-status:
+      - HIT
+      age:
+      - '161369'
+      report-to:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=2L%2FbPtiy%2F2pNhzrAyzvN44gREB%2FK7ZEf6SkkuN%2F1lVPMMXpZWHVpzqiAb77gnnTFHSaMyyX1Q3mz8qiP3xmxCQDnPhCVD8M16GmPrApDzml9VJ75EObpB90Q2I1VBEVOFkyplqLaa1r5"}],"group":"cf-nel","max_age":604800}'
+      nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      access-control-allow-origin:
+      - "*"
+      server:
+      - cloudflare
+      cf-ray:
+      - 8e7c28cf9875a4e5-MIA
+      server-timing:
+      - cfL4;desc="?proto=TCP&rtt=97941&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2790&recv_bytes=779&delivery_rate=45597&cwnd=252&unsent_bytes=0&cid=6d3dd4316dc74d1a&ts=127&x=0"
+    body:
+      encoding: UTF-8
+      string: Not Found
+  recorded_at: Sun, 24 Nov 2024 20:30:53 GMT
+recorded_with: VCR 6.3.1
