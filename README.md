@@ -22,3 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## Information about project
+
+Tutorial taken from [dev.to](https://dev.to/danielpenaloza/rails-api-cache-design-patterns-rspec-19bm)
